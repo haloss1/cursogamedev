@@ -26,7 +26,7 @@ ___
 ___
 
 ### Comunicacion
-#### Discord:
+#### Link de Grupo de Discord:
 <p>
 <a href=https://discord.gg/4QrDpdW>
 <img width="128" height="64" alt="Link del grupo" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">

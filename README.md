@@ -32,3 +32,12 @@ ___
 <img width="128" height="64" alt="Link del grupo" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg">
 </a>
 </p>
+
+___
+
+### Git Flow
+
+<p align="center">
+<img src="https://github.com/haloss1/cursogamedev/blob/master/Design/TeamWorkSyncDiagram/TeamworkSync.svg">
+<i>Pantalla Principal</i>
+</p>

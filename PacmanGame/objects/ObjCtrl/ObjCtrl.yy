@@ -2,7 +2,7 @@
     "id": "834a5300-118c-47aa-a31c-41fdb864bc6e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "teclado",
+    "name": "ObjCtrl",
     "eventList": [
         {
             "id": "e64c5246-02a4-4f84-a817-59cb0efbd885",
@@ -22,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "834a5300-118c-47aa-a31c-41fdb864bc6e"
+        },
+        {
+            "id": "3dae9277-afce-4c72-ade4-33dec329889f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "834a5300-118c-47aa-a31c-41fdb864bc6e"
         }
     ],

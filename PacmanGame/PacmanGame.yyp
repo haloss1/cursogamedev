@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04b889b9-2463-4bd1-99bf-a59533bcc033",
+            "Value": {
+                "id": "c5ed3fe2-0265-4879-a797-a50fa4c068f8",
+                "resourcePath": "objects\\objPoint\\objPoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0cbdc818-56a6-4224-b55e-b62cc06064db",
             "Value": {
                 "id": "c811aff4-6566-4fe3-857e-a70732845b02",
@@ -218,7 +226,7 @@
             "Key": "834a5300-118c-47aa-a31c-41fdb864bc6e",
             "Value": {
                 "id": "55cf14e6-4c54-4bea-898a-9ab2834f5552",
-                "resourcePath": "objects\\teclado\\teclado.yy",
+                "resourcePath": "objects\\ObjCtrl\\ObjCtrl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -404,6 +412,14 @@
                 "id": "506d6bd3-a549-4a10-844e-2b1856c2b6b7",
                 "resourcePath": "sprites\\sprite4\\sprite4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1b87363-b55d-4a1a-ac52-edaa7b2d0350",
+            "Value": {
+                "id": "a2695fc4-f4a4-4046-b533-574f0d96fe40",
+                "resourcePath": "objects\\objSuperPoint\\objSuperPoint.yy",
+                "resourceType": "GMObject"
             }
         },
         {

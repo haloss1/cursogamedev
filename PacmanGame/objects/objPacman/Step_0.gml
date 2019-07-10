@@ -1,5 +1,5 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description Movimientos del jugador
+if (global.hit == true) exit;
 // Movimientos
 if keyboard_check(vk_right) && place_free(x+1,y) && place_snapped(32,32)
 {

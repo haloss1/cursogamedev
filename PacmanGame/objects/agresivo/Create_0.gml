@@ -3,9 +3,7 @@
 globalvar ale;
 global.ale = 1;
 globalvar prty,prtx;
-global.prty = 1;
-global.prtx = 1;
-	global.prty = random(16);
-			global.prtx = random(16);
+			global.prty = round(random(16));
+			global.prtx = round(random(16));
 			global.prty*=64;
 			global.prtx*=64;

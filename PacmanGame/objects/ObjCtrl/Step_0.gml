@@ -42,3 +42,6 @@ mp_grid_add_instances(mapa, pared, false);
 	}
 	}
 }
+if(__dnd_lives == 0){
+	room_goto(gameover);
+}

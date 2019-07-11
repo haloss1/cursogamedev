@@ -9,7 +9,7 @@ mp_grid_add_instances(mapa, pared, false);
 with(cazador){
 	camino = path_add();
 	if mp_grid_path(mapa,camino,x+32,y+32,objPacman.x+32,objPacman.y+32,1) && place_snapped(64,64){
-		path_start(camino,3,3,0);
+		path_start(camino,global.vGhost,3,0);
 	}
 }
 }else{
@@ -18,7 +18,7 @@ with(cazador){
 	with(cazador){
 	camino = path_add();
 	if mp_grid_path(mapa,camino,x+32,y+32,(10*64)+32,(4*64)+32,1) && place_snapped(64,64){
-		path_start(camino,3,3,0);
+		path_start(camino,global.vGhost,3,0);
 	}
 	}
 }

@@ -17,9 +17,23 @@ with(tsundere){
 			path_start(camino,3,3,0);
 			if(global.asu == 0){
 			global.asu = 1;
-			alarm_set(0,100);
+			alarm_set(4,100);
 			}
 		}
 	}
 }
+}else{
+	with(tsundere){
+		if(distance_to_point(global.prx,global.pry) < 50){
+			global.prx = random(16);
+			global.pry = random(16);
+		global.prx *= 64;
+		global.pry *= 64;
+		
+		}
+	}
+		if(place_free(prx,pry)== false){
+			if mp_grid_path(mapa,camino,x,y,prx,pry,1){
+			}
+		}
 }

@@ -10,7 +10,7 @@ if other.sprite_index == sprGhostScared || other.sprite_index == sprGhostScared2
 		y = ystart;
 		sprite_index = sprGhostBlinky;
 		v = 2;
-		speed = v; 
+		speed = 0; 
 	}
 }
 
@@ -18,7 +18,10 @@ else
 if (global.hit == false)
 {
 	speed = 0;
-	global.vidas -= 1;
+	with(ObjCtrl){
+	if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+	__dnd_lives += real(-1);
+	}
 	sprite_index = sprPacmanDead;
 	image_speed = 1;
 	global.hit = true;
